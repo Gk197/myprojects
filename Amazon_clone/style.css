@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width:100px;
+}
+.logo{
+    height: 50px;
+    width:100px;
+    background-image: url("./amazon_logo.png");
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/** its for location box */
+
+.delivery{
+display: flex;
+align-items: center;
+}
+
+.line1{
+color:#cccccc;
+font-size: 0.75rem;
+margin-left:15px;
+}
+.line2{
+    font-size:1rem;
+margin-left:8px;
+}
+
+/** its for search box */
+
+.nav-search{
+    display: flex;
+    background-color: rgb(181, 125, 29);
+    width:800px;
+    height:45px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-option{
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    width:50px;
+    background-color: #f3f3f3;
+    text-align:center;
+    border:none;
+}
+.search-box{
+width:100%;
+font-size: 1.5rem;
+text-align: center;
+border:none;
+}
+.search-icon{
+    color:#0f1111;
+     width:45px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     border:none;
+     font-size: 1.5rem;
+     border-top-right-radius:4px;
+     border-bottom-right-radius: 4px;
+}
+
+
+/* sign in box */
+
+span{
+    font-size: 0.9rem;
+}
+.signin-line2
+{
+    background-color: #0f1111;
+    color:white;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* cart box css*/
+
+.nav-cart i{
+    font-size:35px;
+}
+.nav-cart{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* navigation bar css ended*/
+
+
+/* panel bar css started*/
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+}
+ .panel-all{
+font-weight: 700;
+ }
+
+ .panel-deal{
+display: flex;
+width:70%;
+
+ }
+ .panel-deal p{
+    margin-left: 20px;
+ }
+ .panel-deal :hover{
+    border:1.5px solid orange;
+ }
+.panel-electronics a{
+color:white;
+font-weight: 700;
+}
+ 
+
+/* hero section css*/
+
+.hero{
+    background-image: url("./hero_image.jpg");
+    height:400px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-text{
+    background-color:white;
+    color:black;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    width:90%;
+    margin-bottom: 20px;
+    
+}
+/* hover section css*/
+
+.borderr:hover{
+border:2px solid white;
+
+}
+
+/* shop section css*/
+
+.shop-section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height:400px;
+    
+    width:23%;
+    background-color: white;
+    margin-top:10px;
+   
+}
+.image{
+    background-size:cover;
+    height:300px;
+   margin-top:1rem;
+   margin-bottom: 1rem;
+
+}
+
+/* footer css here*/
+.footer{
+margin-top: 15px;;    
+}
+
+/* footer 1 css*/
+
+
+.footer1{
+   background-color: #37475a;
+   height:50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color:white ;
+   font-size: 0.85 rem;
+}
+
+/* footer 2 css*/
+.footer2{
+    display:flex;
+    background-color: #222f3d;
+    color:white;
+    height:250px;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top:15px;
+    padding:10px;
+}
+ul a{
+    font-size:0.85rem;
+    display: flex;
+    margin-top: 10px;
+    color:#dddddd;
+
+}
+ul p{
+    font-weight: 700;
+}
+
+/* footer 3 logo line  css*/
+.logoline{
+    height:100px;
+    background-color: #222f3d;
+    border-top:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    background-image:url("./amazon_logo.png");
+    height:50px;
+    width:100px;
+  background-size: cover;
+  
+}
+
+/* footer 4 last two line  css*/
+.lastlines{
+    background-color: #030e19;
+    height:100px;
+    color:white;
+    text-align:center;
+    
+}
+.firstline{
+   padding-top:20px;
+}
+.secondline{
+    font-size: 0.8rem;
+    padding:10px;
+}
